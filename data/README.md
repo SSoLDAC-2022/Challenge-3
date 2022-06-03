@@ -1,0 +1,30 @@
+
+## IFC.ttl
+
+Contains the ifc file format information in turtle format.
+
+## resources.csv
+
+Contains the information of resources types used in the project in csv format.
+
+## schedule.csv
+
+Contains the information of the schedule in xml format.
+
+## simulation.py
+
+Executes a simulation of positions at the places where the workers are at the moment. To install the required libraries execute the following command:
+
+```
+pip3 install -r requirements.txt
+```
+
+## To access to the API of trajectories information:
+
+| Metodo |             Headers            |    Endpoint   |                          Description                          |
+|:------:|:------------------------------:|:-------------:|:-------------------------------------------------------------:|
+|   GET  | Content-Type: application/json |   /projects   |                    Get projects in progress                   |
+|   GET  | Content-Type: application/json |   /taggroups  |                Retrieve the groups of the tags                |
+|   GET  | Content-Type: application/json |  /tagbuttons  |               Retrieve when a button is pressed               |
+|   GET  | Content-Type: application/json |    /tagdata   |              Retrieve the information of the tag              |
+|   GET  | Content-Type: application/json | /trackedzones | Retrieve the information about the zone that is being tracked |
