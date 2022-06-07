@@ -37,5 +37,5 @@ Bring your laptop.
 * 2D simulation tools (e.g., Unity)
 
 ## References
-1. Cimmino, A., & García-Castro, R.(2022). Helio: a framework for implementing the life cycle of knowledge graphs.Semantic Web Journal.
-2. Katsigarakis, K. and  N.Lilis, G. and Rovas, D. González-Gerpe, S. and Bernardos, S. and Cimmino, A. and Poveda-Villalón, M. and García-Castro, R. (2022). A Digital Twin Platform generating Knowledge Graphs for construction projects. SeDIT Workshop.
+1. Cimmino, A., & García-Castro, R.(2022). Helio: a framework for implementing the life cycle of knowledge graphs.Semantic Web Journal. [link](http://www.semantic-web-journal.net/system/files/swj3083.pdf)
+2. Katsigarakis, K. and  N.Lilis, G. and Rovas, D. González-Gerpe, S. and Bernardos, S. and Cimmino, A. and Poveda-Villalón, M. and García-Castro, R. (2022). A Digital Twin Platform generating Knowledge Graphs for construction projects. SeDIT Workshop. [link](https://drive.upm.es/s/TmoPnSt5V5rUcZd/download)
