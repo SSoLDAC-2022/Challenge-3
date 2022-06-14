@@ -1,0 +1,702 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+@prefix cost: <http://data.cogito.iot.linkeddata.es/resources/cost/> .
+@prefix interval: <http://data.cogito.iot.linkeddata.es/resources/interval/> .
+
+data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976
+    a facility:Project ;
+    facility:isRelatedToProcess data:FE090C7C-7AEC-42FE-9452-AD0AA8643D28 .
+data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28
+    a process:Process ;
+    process:processID 'FE090C7C-7AEC-42FE-9452-AD0AA8643D28' ;
+    process:hasName 'rst_advanced_sample_project_MSP2010.xml' ;
+    process:hasCreationDate '2009-10-12T08:00:00'^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    process:hasCost cost:FE090C7C-7AEC-42FE-9452-AD0AA8643D28 ;
+    process:isPlannedIn interval:FE090C7C-7AEC-42FE-9452-AD0AA8643D28 .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0
+    a process:Task ;
+    process:taskId 'AD74C853-6199-4FE2-994B-9C5142AD8021' ;
+    process:taskUid '0' ;
+    process:hasName 'msproj11'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:AD74C853-6199-4FE2-994B-9C5142AD8021 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:AD74C853-6199-4FE2-994B-9C5142AD8021 .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1
+    a process:Task ;
+    process:taskId '64518854-E3AA-4FF7-B8BC-33DB2326571C' ;
+    process:taskUid '1' ;
+    process:hasName 'RST Adv. Sample Project'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:64518854-E3AA-4FF7-B8BC-33DB2326571C ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:64518854-E3AA-4FF7-B8BC-33DB2326571C ;
+        process:hasSubTask
+                '1.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.4'^^<http://www.w3.org/2001/XMLSchema#string>  . 
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2
+    a process:Task ;
+    process:taskId '9A1B7091-2F36-4D2D-A334-769B82811DDA' ;
+    process:taskUid '2' ;
+    process:hasName 'Division 1'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:9A1B7091-2F36-4D2D-A334-769B82811DDA ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:9A1B7091-2F36-4D2D-A334-769B82811DDA ;
+        process:hasSubTask
+                '1.1.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.3'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.4'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3
+    a process:Task ;
+    process:taskId 'CF6AC4D9-1D0E-4C59-AD75-B6BB862A82F7' ;
+    process:taskUid '3' ;
+    process:hasName 'Substructure'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:CF6AC4D9-1D0E-4C59-AD75-B6BB862A82F7 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:CF6AC4D9-1D0E-4C59-AD75-B6BB862A82F7 ;
+        process:hasSubTask
+                '1.1.1.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.1.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4
+    a process:Task ;
+    process:taskId 'F1AD89CD-6EE0-48F2-9945-F2C107F8504C' ;
+    process:taskUid '4' ;
+    process:hasName 'Piles and Caps'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:F1AD89CD-6EE0-48F2-9945-F2C107F8504C ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:F1AD89CD-6EE0-48F2-9945-F2C107F8504C ;
+        process:isSubTaskOf '1.1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6
+    a process:Task ;
+    process:taskId 'D90EB083-CAB7-4953-9F1B-6EEB7D2CBB72' ;
+    process:taskUid '6' ;
+    process:hasName 'Floor Slab (Floor 0)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:D90EB083-CAB7-4953-9F1B-6EEB7D2CBB72 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:D90EB083-CAB7-4953-9F1B-6EEB7D2CBB72 ;
+        process:isSubTaskOf '1.1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5
+    a process:Task ;
+    process:taskId '624D2AD5-1AFF-4113-A1A8-821AC8052FB2' ;
+    process:taskUid '5' ;
+    process:hasName 'Floor 1'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:624D2AD5-1AFF-4113-A1A8-821AC8052FB2 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:624D2AD5-1AFF-4113-A1A8-821AC8052FB2 ;
+        process:hasSubTask
+                '1.1.2.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.2.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.2.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21
+    a process:Task ;
+    process:taskId 'AFF17DAF-93DB-4BCA-8E63-54CE59B47CDC' ;
+    process:taskUid '21' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:AFF17DAF-93DB-4BCA-8E63-54CE59B47CDC ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:AFF17DAF-93DB-4BCA-8E63-54CE59B47CDC ;
+        process:isSubTaskOf '1.1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7
+    a process:Task ;
+    process:taskId 'FDC56A31-6BE9-4FA3-8D9D-883390DFA35F' ;
+    process:taskUid '7' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:FDC56A31-6BE9-4FA3-8D9D-883390DFA35F ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:FDC56A31-6BE9-4FA3-8D9D-883390DFA35F ;
+        process:isSubTaskOf '1.1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8
+    a process:Task ;
+    process:taskId '6A5B26EF-D364-4F49-B168-BAF128551A9C' ;
+    process:taskUid '8' ;
+    process:hasName 'Beams and Floor Slab (Floor 1)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:6A5B26EF-D364-4F49-B168-BAF128551A9C ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:6A5B26EF-D364-4F49-B168-BAF128551A9C ;
+        process:isSubTaskOf '1.1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17
+    a process:Task ;
+    process:taskId '4B0DDFAA-4E9E-4D98-90F9-23FF8BEC7901' ;
+    process:taskUid '17' ;
+    process:hasName 'Floor 2'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:4B0DDFAA-4E9E-4D98-90F9-23FF8BEC7901 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:4B0DDFAA-4E9E-4D98-90F9-23FF8BEC7901 ;
+        process:hasSubTask
+                '1.1.3.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.3.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.3.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22
+    a process:Task ;
+    process:taskId '9D5F5E2F-5FBC-496A-88C4-17533696CD43' ;
+    process:taskUid '22' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:9D5F5E2F-5FBC-496A-88C4-17533696CD43 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:9D5F5E2F-5FBC-496A-88C4-17533696CD43 ;
+        process:isSubTaskOf '1.1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13
+    a process:Task ;
+    process:taskId '7B177D22-3E2D-43D1-8C72-AECBB16B1BB7' ;
+    process:taskUid '13' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:7B177D22-3E2D-43D1-8C72-AECBB16B1BB7 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:7B177D22-3E2D-43D1-8C72-AECBB16B1BB7 ;
+        process:isSubTaskOf '1.1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14
+    a process:Task ;
+    process:taskId '6FD03B61-F8D8-49B6-9D75-CF508FB33862' ;
+    process:taskUid '14' ;
+    process:hasName 'Beams and Floor Slab (Floor 2)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:6FD03B61-F8D8-49B6-9D75-CF508FB33862 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:6FD03B61-F8D8-49B6-9D75-CF508FB33862 ;
+        process:isSubTaskOf '1.1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18
+    a process:Task ;
+    process:taskId '049F7A6B-3B39-46E9-8B51-5DD5173CDD63' ;
+    process:taskUid '18' ;
+    process:hasName 'Floor 3'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:049F7A6B-3B39-46E9-8B51-5DD5173CDD63 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:049F7A6B-3B39-46E9-8B51-5DD5173CDD63 ;
+        process:hasSubTask
+                '1.1.4.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.4.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.1.4.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10
+    a process:Task ;
+    process:taskId '2AEF0F45-3DAC-42E0-8B3B-6C9A64808289' ;
+    process:taskUid '10' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:2AEF0F45-3DAC-42E0-8B3B-6C9A64808289 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:2AEF0F45-3DAC-42E0-8B3B-6C9A64808289 ;
+        process:isSubTaskOf '1.1.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15
+    a process:Task ;
+    process:taskId '930E6016-055C-445C-81EB-D976A9173B5C' ;
+    process:taskUid '15' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:930E6016-055C-445C-81EB-D976A9173B5C ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:930E6016-055C-445C-81EB-D976A9173B5C ;
+        process:isSubTaskOf '1.1.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16
+    a process:Task ;
+    process:taskId '2C44CAF0-16F4-410C-B706-393A91FCB37C' ;
+    process:taskUid '16' ;
+    process:hasName 'Beams and Roof Slab'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:2C44CAF0-16F4-410C-B706-393A91FCB37C ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:2C44CAF0-16F4-410C-B706-393A91FCB37C ;
+        process:isSubTaskOf '1.1.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53
+    a process:Task ;
+    process:taskId '1AD6F0EB-0CC6-429E-BD3B-39093FCE1805' ;
+    process:taskUid '53' ;
+    process:hasName 'Division 2'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:1AD6F0EB-0CC6-429E-BD3B-39093FCE1805 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:1AD6F0EB-0CC6-429E-BD3B-39093FCE1805 ;
+        process:hasSubTask
+                '1.2.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.3'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.4'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54
+    a process:Task ;
+    process:taskId 'F2DD1089-605E-4F9E-9069-EC330E112F1A' ;
+    process:taskUid '54' ;
+    process:hasName 'Substructure'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:F2DD1089-605E-4F9E-9069-EC330E112F1A ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:F2DD1089-605E-4F9E-9069-EC330E112F1A ;
+        process:hasSubTask
+                '1.2.1.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.1.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55
+    a process:Task ;
+    process:taskId '40A8568C-0C67-4F63-A735-658CD6C7FA95' ;
+    process:taskUid '55' ;
+    process:hasName 'Piles and Caps'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:40A8568C-0C67-4F63-A735-658CD6C7FA95 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:40A8568C-0C67-4F63-A735-658CD6C7FA95 ;
+        process:isSubTaskOf '1.2.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56
+    a process:Task ;
+    process:taskId 'AA76F034-3C44-4E76-B230-BEAEC3D19424' ;
+    process:taskUid '56' ;
+    process:hasName 'Floor Slab (Floor 0)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:AA76F034-3C44-4E76-B230-BEAEC3D19424 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:AA76F034-3C44-4E76-B230-BEAEC3D19424 ;
+        process:isSubTaskOf '1.2.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57
+    a process:Task ;
+    process:taskId '22AB8911-105F-41E3-A61B-DF13BFB9EEED' ;
+    process:taskUid '57' ;
+    process:hasName 'Floor 1'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:22AB8911-105F-41E3-A61B-DF13BFB9EEED ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:22AB8911-105F-41E3-A61B-DF13BFB9EEED ;
+        process:hasSubTask
+                '1.2.2.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.2.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59
+    a process:Task ;
+    process:taskId '4DAD3CF8-C28D-4D7D-B6FF-CEBFAD0C01A9' ;
+    process:taskUid '59' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:4DAD3CF8-C28D-4D7D-B6FF-CEBFAD0C01A9 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:4DAD3CF8-C28D-4D7D-B6FF-CEBFAD0C01A9 ;
+        process:isSubTaskOf '1.2.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60
+    a process:Task ;
+    process:taskId '8B9D7131-F54A-490D-9855-54AFBF323B8B' ;
+    process:taskUid '60' ;
+    process:hasName 'Beams and Floor Slab (Floor 1)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:8B9D7131-F54A-490D-9855-54AFBF323B8B ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:8B9D7131-F54A-490D-9855-54AFBF323B8B ;
+        process:isSubTaskOf '1.2.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61
+    a process:Task ;
+    process:taskId '16F38803-BA42-41B5-BF4F-98726D5224EF' ;
+    process:taskUid '61' ;
+    process:hasName 'Floor 2'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:16F38803-BA42-41B5-BF4F-98726D5224EF ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:16F38803-BA42-41B5-BF4F-98726D5224EF ;
+        process:hasSubTask
+                '1.2.3.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.3.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63
+    a process:Task ;
+    process:taskId 'A8BF0BB2-1A1F-4DA6-8F0C-5136C5EE5982' ;
+    process:taskUid '63' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:A8BF0BB2-1A1F-4DA6-8F0C-5136C5EE5982 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:A8BF0BB2-1A1F-4DA6-8F0C-5136C5EE5982 ;
+        process:isSubTaskOf '1.2.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64
+    a process:Task ;
+    process:taskId 'DD73C77D-1606-4377-AA74-6039D25E40F1' ;
+    process:taskUid '64' ;
+    process:hasName 'Beams and Floor Slab (Floor 2)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:DD73C77D-1606-4377-AA74-6039D25E40F1 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:DD73C77D-1606-4377-AA74-6039D25E40F1 ;
+        process:isSubTaskOf '1.2.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65
+    a process:Task ;
+    process:taskId 'E4ADD63C-5C72-4008-B75E-915A8B5EF22D' ;
+    process:taskUid '65' ;
+    process:hasName 'Floor 3'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:E4ADD63C-5C72-4008-B75E-915A8B5EF22D ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:E4ADD63C-5C72-4008-B75E-915A8B5EF22D ;
+        process:hasSubTask
+                '1.2.4.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.2.4.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67
+    a process:Task ;
+    process:taskId 'DB10A3F7-B46B-4C15-9254-84F10F6D3D97' ;
+    process:taskUid '67' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:DB10A3F7-B46B-4C15-9254-84F10F6D3D97 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:DB10A3F7-B46B-4C15-9254-84F10F6D3D97 ;
+        process:isSubTaskOf '1.2.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68
+    a process:Task ;
+    process:taskId '703F1C6F-C988-4ACC-8387-6E485E3A4009' ;
+    process:taskUid '68' ;
+    process:hasName 'Beams and Roof Slab'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:703F1C6F-C988-4ACC-8387-6E485E3A4009 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:703F1C6F-C988-4ACC-8387-6E485E3A4009 ;
+        process:isSubTaskOf '1.2.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104
+    a process:Task ;
+    process:taskId '9991AE72-90B8-4B27-A192-BD48FA426A44' ;
+    process:taskUid '104' ;
+    process:hasName 'Division 3'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:9991AE72-90B8-4B27-A192-BD48FA426A44 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:9991AE72-90B8-4B27-A192-BD48FA426A44 ;
+        process:hasSubTask
+                '1.3.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.3'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.4'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105
+    a process:Task ;
+    process:taskId '0B6900AE-DE66-420C-ABD2-FEFA862FC227' ;
+    process:taskUid '105' ;
+    process:hasName 'Substructure'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:0B6900AE-DE66-420C-ABD2-FEFA862FC227 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:0B6900AE-DE66-420C-ABD2-FEFA862FC227 ;
+        process:hasSubTask
+                '1.3.1.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.1.2'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106
+    a process:Task ;
+    process:taskId 'C3728CA5-B088-42FB-8860-CEB5BD9329B2' ;
+    process:taskUid '106' ;
+    process:hasName 'Piles and Caps'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:C3728CA5-B088-42FB-8860-CEB5BD9329B2 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:C3728CA5-B088-42FB-8860-CEB5BD9329B2 ;
+        process:isSubTaskOf '1.3.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107
+    a process:Task ;
+    process:taskId 'CE767D56-8854-481A-A558-3D97C8906BE7' ;
+    process:taskUid '107' ;
+    process:hasName 'Floor Slab (Floor 0)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:CE767D56-8854-481A-A558-3D97C8906BE7 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:CE767D56-8854-481A-A558-3D97C8906BE7 ;
+        process:isSubTaskOf '1.3.1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108
+    a process:Task ;
+    process:taskId 'B6D91E09-2271-4C90-BF0A-5245C1F0E486' ;
+    process:taskUid '108' ;
+    process:hasName 'Floor 1'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:B6D91E09-2271-4C90-BF0A-5245C1F0E486 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:B6D91E09-2271-4C90-BF0A-5245C1F0E486 ;
+        process:hasSubTask
+                '1.3.2.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.2.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.2.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109
+    a process:Task ;
+    process:taskId '8B2EC23F-4C4A-4E35-9855-A4E51D940C08' ;
+    process:taskUid '109' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:8B2EC23F-4C4A-4E35-9855-A4E51D940C08 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:8B2EC23F-4C4A-4E35-9855-A4E51D940C08 ;
+        process:isSubTaskOf '1.3.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110
+    a process:Task ;
+    process:taskId '302EA137-4122-45ED-A5BB-B254C7DF3153' ;
+    process:taskUid '110' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:302EA137-4122-45ED-A5BB-B254C7DF3153 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:302EA137-4122-45ED-A5BB-B254C7DF3153 ;
+        process:isSubTaskOf '1.3.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111
+    a process:Task ;
+    process:taskId '10363876-EDE4-460D-B2CC-2C51CAE1E159' ;
+    process:taskUid '111' ;
+    process:hasName 'Beams and Floor Slab (Floor 1)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:10363876-EDE4-460D-B2CC-2C51CAE1E159 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:10363876-EDE4-460D-B2CC-2C51CAE1E159 ;
+        process:isSubTaskOf '1.3.2'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112
+    a process:Task ;
+    process:taskId 'AC8CC3E1-078E-4C51-BC45-16EB491F307F' ;
+    process:taskUid '112' ;
+    process:hasName 'Floor 2'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:AC8CC3E1-078E-4C51-BC45-16EB491F307F ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:AC8CC3E1-078E-4C51-BC45-16EB491F307F ;
+        process:hasSubTask
+                '1.3.3.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.3.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.3.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113
+    a process:Task ;
+    process:taskId '03E91AD5-CE86-42D1-916A-9B1F5C3FB735' ;
+    process:taskUid '113' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:03E91AD5-CE86-42D1-916A-9B1F5C3FB735 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:03E91AD5-CE86-42D1-916A-9B1F5C3FB735 ;
+        process:isSubTaskOf '1.3.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114
+    a process:Task ;
+    process:taskId 'ADCF6CDB-B73C-4FEF-A828-947226903359' ;
+    process:taskUid '114' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:ADCF6CDB-B73C-4FEF-A828-947226903359 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:ADCF6CDB-B73C-4FEF-A828-947226903359 ;
+        process:isSubTaskOf '1.3.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115
+    a process:Task ;
+    process:taskId '26A28CF8-7DE9-4E2E-AC8B-415672A997BF' ;
+    process:taskUid '115' ;
+    process:hasName 'Beams and Floor Slab (Floor 2)'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:26A28CF8-7DE9-4E2E-AC8B-415672A997BF ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:26A28CF8-7DE9-4E2E-AC8B-415672A997BF ;
+        process:isSubTaskOf '1.3.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116
+    a process:Task ;
+    process:taskId 'A79ECD8B-1175-48C4-9C35-2EEF3E7470C0' ;
+    process:taskUid '116' ;
+    process:hasName 'Floor 3'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:A79ECD8B-1175-48C4-9C35-2EEF3E7470C0 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:A79ECD8B-1175-48C4-9C35-2EEF3E7470C0 ;
+        process:hasSubTask
+                '1.3.4.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.4.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.3.4.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1.3'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117
+    a process:Task ;
+    process:taskId '480ACC2C-BD92-4C0C-B230-901AA90FDFCF' ;
+    process:taskUid '117' ;
+    process:hasName 'Emergency staircase shaft'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:480ACC2C-BD92-4C0C-B230-901AA90FDFCF ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:480ACC2C-BD92-4C0C-B230-901AA90FDFCF ;
+        process:isSubTaskOf '1.3.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118
+    a process:Task ;
+    process:taskId '10762CA1-18B5-45CF-870B-1D7D07B4FE5A' ;
+    process:taskUid '118' ;
+    process:hasName 'Concrete Rd Columns'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:10762CA1-18B5-45CF-870B-1D7D07B4FE5A ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:10762CA1-18B5-45CF-870B-1D7D07B4FE5A ;
+        process:isSubTaskOf '1.3.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119
+    a process:Task ;
+    process:taskId '95AD44A2-E64E-45E7-A6A3-0ED08EAB90C8' ;
+    process:taskUid '119' ;
+    process:hasName 'Beams and Roof Slab'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:95AD44A2-E64E-45E7-A6A3-0ED08EAB90C8 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:95AD44A2-E64E-45E7-A6A3-0ED08EAB90C8 ;
+        process:isSubTaskOf '1.3.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72
+    a process:Task ;
+    process:taskId '9CD9C2F1-95D9-49A7-B1BB-ACADFBE6A7E6' ;
+    process:taskUid '72' ;
+    process:hasName 'Entrance canopy'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:9CD9C2F1-95D9-49A7-B1BB-ACADFBE6A7E6 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:9CD9C2F1-95D9-49A7-B1BB-ACADFBE6A7E6 ;
+        process:hasSubTask
+                '1.4.1'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.4.2'^^<http://www.w3.org/2001/XMLSchema#string>  , 
+                '1.4.3'^^<http://www.w3.org/2001/XMLSchema#string>  ; 
+        process:isSubTaskOf '1'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74
+    a process:Task ;
+    process:taskId '043DD0CE-E309-491D-8DF6-6796BC4E5957' ;
+    process:taskUid '74' ;
+    process:hasName 'Round foundations'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:043DD0CE-E309-491D-8DF6-6796BC4E5957 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:043DD0CE-E309-491D-8DF6-6796BC4E5957 ;
+        process:isSubTaskOf '1.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76
+    a process:Task ;
+    process:taskId '6079F6A4-A131-4B6E-8454-6DCF07764872' ;
+    process:taskUid '76' ;
+    process:hasName 'Steel'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:6079F6A4-A131-4B6E-8454-6DCF07764872 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:6079F6A4-A131-4B6E-8454-6DCF07764872 ;
+        process:isSubTaskOf '1.4'^^<http://www.w3.org/2001/XMLSchema#string> .
+data:Task_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206
+    a process:Task ;
+    process:taskId '5BDC7227-D17F-4F1D-B3CB-3F036777D2D0' ;
+    process:taskUid '206' ;
+    process:hasName 'Concrete Roof'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCreationDate ''^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    process:isPlannedIn interval:5BDC7227-D17F-4F1D-B3CB-3F036777D2D0 ;
+    process:hasPriority '500'^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    process:hasProgress 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasStatus 'PT0H0M0S'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:hasCost cost:5BDC7227-D17F-4F1D-B3CB-3F036777D2D0 ;
+        process:isSubTaskOf '1.4'^^<http://www.w3.org/2001/XMLSchema#string> .

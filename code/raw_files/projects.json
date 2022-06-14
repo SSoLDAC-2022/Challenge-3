@@ -1,0 +1,40 @@
+{
+    "projectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+    "projectTitle": "Example COGITO IoT project",
+    "projectLocation": "Address Name and Number, City, Country",
+    "startDate": "2022-04-07T17:12:14.880878",
+    "trackingType": 0,
+    "coordsOrigin": [
+        38.017215285632595,
+        23.796327919846476
+    ],
+    "trackedGroups": 0,
+    "noTrackedZones": 4,
+    "noTrackedItems": 6,
+    "lastActive": "2022-04-20T14:41:53.078000",
+    "estAccuracy": 0.13316928033665384,
+    "groups": [
+        {
+            "groupId": "7ec6bf7e-14bd-42a4-8cad-9d5d60e789b2",
+            "groupName": "Workers",
+            "groupResourceType": 8,
+            "tags": [
+                {
+                    "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+                    "tagActive": 1,
+                    "lastSeen": "2022-04-20T14:41:53.078000"
+                },
+                {
+                    "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+                    "tagActive": 1,
+                    "lastSeen": "2022-04-20T14:41:50.107000"
+                },
+                {
+                    "tagId": "0176711d-00a6-5dab-be9c-a807e6dace27",
+                    "tagActive": 0,
+                    "lastSeen": "2022-04-20T14:41:50.107000"
+                }
+            ]
+        }
+    ]
+}

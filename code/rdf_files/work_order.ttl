@@ -1,0 +1,61 @@
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+
+
+data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976
+    a facility:Project ;
+    facility:isRelatedToProcess data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28 ;
+    facility:hasProjectId '2b547f71-6e1c-4048-a61c-eb59c7e79976'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28
+    a process:Process ;
+    process:processId 'FE090C7C-7AEC-42FE-9452-AD0AA8643D28'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:belongsToProject data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 .
+
+data:WorkOrder_2985732-49853425-38954
+    a process:WorkOrder ;
+    process:workOrderId '2985732-49853425-38954'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:belongsToProcess data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28 ;
+    resource:hasAssignedResource data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976
+    a facility:Project ;
+    facility:isRelatedToProcess data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28 ;
+    facility:hasProjectId '2b547f71-6e1c-4048-a61c-eb59c7e79976'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28
+    a process:Process ;
+    process:processId 'FE090C7C-7AEC-42FE-9452-AD0AA8643D28'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:belongsToProject data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 .
+
+data:WorkOrder_2985732-49853425-34095
+    a process:WorkOrder ;
+    process:workOrderId '2985732-49853425-34095'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    process:belongsToProcess data:Process_2b547f71-6e1c-4048-a61c-eb59c7e79976_FE090C7C-7AEC-42FE-9452-AD0AA8643D28 ;
+    resource:hasAssignedResource data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25 .
+

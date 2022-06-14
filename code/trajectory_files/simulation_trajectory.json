@@ -1,0 +1,390 @@
+{
+    "tagdata": [
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01731320199856,
+                23.796334761323557
+            ],
+            "xy_location": [
+                10.9,
+                0.6
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783993
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.017324880097256,
+                23.796748670686938
+            ],
+            "xy_location": [
+                12.2,
+                36.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783993
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01721887889373,
+                23.796554828836317
+            ],
+            "xy_location": [
+                0.4,
+                19.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783994
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01725840476623,
+                23.796440804218307
+            ],
+            "xy_location": [
+                4.8,
+                9.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783994
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.0175090347305,
+                23.796330200338836
+            ],
+            "xy_location": [
+                32.7,
+                0.2
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783995
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01757640837681,
+                23.796425981017965
+            ],
+            "xy_location": [
+                40.2,
+                8.6
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783995
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01732308346669,
+                23.79669849985501
+            ],
+            "xy_location": [
+                12.0,
+                32.5
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783996
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.017672528112215,
+                23.796402035848182
+            ],
+            "xy_location": [
+                50.9,
+                6.5
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783996
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.017284455909476,
+                23.796339322308278
+            ],
+            "xy_location": [
+                7.7,
+                1.0
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783997
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01734913460993,
+                23.796440804218307
+            ],
+            "xy_location": [
+                14.9,
+                9.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783997
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01733206661953,
+                23.796533164158898
+            ],
+            "xy_location": [
+                13.0,
+                18.0
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783998
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01773630849738,
+                23.796403176094362
+            ],
+            "xy_location": [
+                58.0,
+                6.6
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783998
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.017348236294644,
+                23.796383791909303
+            ],
+            "xy_location": [
+                14.8,
+                4.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783999
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01733026998896,
+                23.796786298810883
+            ],
+            "xy_location": [
+                12.8,
+                40.2
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654783999
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.0174524408676,
+                23.796375810186042
+            ],
+            "xy_location": [
+                26.4,
+                4.2
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654784000
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "tagGroup": "9d8b5d6e-691a-482a-ab8e-85a7e094dab0",
+            "assignedProjectId": "2b547f71-6e1c-4048-a61c-eb59c7e79976",
+            "coordLocation": [
+                38.01731230368328,
+                23.7963723894475
+            ],
+            "xy_location": [
+                10.8,
+                3.9
+            ],
+            "locationRadius": 0.45,
+            "inferredAccuracy": 2,
+            "currentZone": "22O7WvOu1F3RpVxpkqDC6M",
+            "inferredMovement": 1,
+            "inferredSpeed": 0.1,
+            "batteryStatus": 1,
+            "lastSeen": 1654784000
+        }
+    ],
+    "tagbuttons": [
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783993
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783993
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783994
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783994
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783995
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783995
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783996
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783996
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783997
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783997
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783998
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783998
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654783999
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654783999
+        },
+        {
+            "tagId": "e9b870d9-5058-4d4a-802b-3457279524e0",
+            "lastPressed": 1654784000
+        },
+        {
+            "tagId": "0176711d-00a6-5dab-be9c-a807e6dace25",
+            "lastPressed": 1654784000
+        }
+    ]
+}

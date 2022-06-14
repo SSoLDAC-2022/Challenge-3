@@ -1,0 +1,1 @@
+conda install -c conda-forge -c oce -c dlr-sc -c ifcopenshell ifcopenshell

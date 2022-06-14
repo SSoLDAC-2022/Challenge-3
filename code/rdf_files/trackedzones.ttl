@@ -1,0 +1,242 @@
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <https://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+@prefix props: <https://w3id.org/props#> .
+
+
+data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976
+    a facility:Project ;
+    facility:hasProjectId '2b547f71-6e1c-4048-a61c-eb59c7e79976'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:TrackedZone_22O7WvOu1F3RpVxpkqDC6M
+    a facility:Element ;
+    a bot:Element ;
+    a facility:Polygon ;
+    props:hasCompressedGuid '22O7WvOu1F3RpVxpkqDC6M'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    facility:hasBoundaries data:Polyline_22O7WvOu1F3RpVxpkqDC6M .
+
+data:Polyline_22O7WvOu1F3RpVxpkqDC6M
+    a facility:Polyline ;
+        facility:hasFirstPoint facility:Polyline_Point_0.
+
+facility:Polyline_Point_0 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_1 ;
+    facility:hasNextPoint data:Point_1 ;
+    facility:hasNextPoint data:Point_2 ;
+    facility:hasNextPoint data:Point_3 ;
+    facility:hasNextPoint data:Point_4 ;
+    facility:hasNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_0.
+    
+
+facility:Point_0
+    a resource:Point ;
+    facility:hasXCoordinate 0 ;
+    facility:hasYCoordinate 0 .
+
+
+facility:Polyline_Point_1 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_2 ;
+    facility:hasNextPoint data:Point_2 ;
+    facility:hasNextPoint data:Point_3 ;
+    facility:hasNextPoint data:Point_4 ;
+    facility:hasNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_1.
+    
+
+facility:Point_1
+    a resource:Point ;
+    facility:hasXCoordinate 66.4 ;
+    facility:hasYCoordinate 0 .
+
+
+facility:Polyline_Point_2 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_3 ;
+    facility:hasNextPoint data:Point_3 ;
+    facility:hasNextPoint data:Point_4 ;
+    facility:hasNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_2.
+    
+
+facility:Point_2
+    a resource:Point ;
+    facility:hasXCoordinate 66.4 ;
+    facility:hasYCoordinate 11.2 .
+
+
+facility:Polyline_Point_3 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_4 ;
+    facility:hasNextPoint data:Point_4 ;
+    facility:hasNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_3.
+    
+
+facility:Point_3
+    a resource:Point ;
+    facility:hasXCoordinate 17.1 ;
+    facility:hasYCoordinate 11.2 .
+
+
+facility:Polyline_Point_4 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_5 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_4.
+    
+
+facility:Point_4
+    a resource:Point ;
+    facility:hasXCoordinate 17.1 ;
+    facility:hasYCoordinate 16.6 .
+
+
+facility:Polyline_Point_5 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_6 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_5.
+    
+
+facility:Point_5
+    a resource:Point ;
+    facility:hasXCoordinate 24 ;
+    facility:hasYCoordinate 16.6 .
+
+
+facility:Polyline_Point_6 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_7 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_6.
+    
+
+facility:Point_6
+    a resource:Point ;
+    facility:hasXCoordinate 24 ;
+    facility:hasYCoordinate 22.9 .
+
+
+facility:Polyline_Point_7 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_8 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_7.
+    
+
+facility:Point_7
+    a resource:Point ;
+    facility:hasXCoordinate 17.1 ;
+    facility:hasYCoordinate 22.9 .
+
+
+facility:Polyline_Point_8 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_9 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_8.
+    
+
+facility:Point_8
+    a resource:Point ;
+    facility:hasXCoordinate 17.1 ;
+    facility:hasYCoordinate 43 .
+
+
+facility:Polyline_Point_9 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_10 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_9.
+    
+
+facility:Point_9
+    a resource:Point ;
+    facility:hasXCoordinate 37.2 ;
+    facility:hasYCoordinate 43 .
+
+
+facility:Polyline_Point_10 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_11 ;
+    facility:hasNextPoint data:Point_11 ;
+    facility:isLocatedIn data:Point_10.
+    
+
+facility:Point_10
+    a resource:Point ;
+    facility:hasXCoordinate 37.2 ;
+    facility:hasYCoordinate 54 .
+
+
+facility:Polyline_Point_11 
+    a facility:Polyline_Point ;
+    facility:hasDirectNextPoint data:Point_0 ;
+    facility:isLocatedIn data:Point_11.
+    
+
+facility:Point_11
+    a resource:Point ;
+    facility:hasXCoordinate 0 ;
+    facility:hasYCoordinate 54 .
+

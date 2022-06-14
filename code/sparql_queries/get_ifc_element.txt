@@ -1,0 +1,6 @@
+PREFIX resource: <https://cogito.iot.linkeddata.es/def/resource#>
+PREFIX props: <https://w3id.org/props#>
+PREFIX facility: <https://cogito.iot.linkeddata.es/def/facility#>
+SELECT DISTINCT ?s WHERE {
+    ?s props:hasCompressedGuid  "22O7WvOu1F3RpVxpkqDC6M" .    
+}

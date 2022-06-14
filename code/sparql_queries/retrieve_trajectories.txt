@@ -1,0 +1,16 @@
+PREFIX resource: <https://cogito.iot.linkeddata.es/def/resource#>
+PREFIX props: <https://w3id.org/props#>
+PREFIX facility: <https://cogito.iot.linkeddata.es/def/facility#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT DISTINCT ?s ?trajectory ?initalPointX ?initalPointY  ?nextTrajectoryPointX ?nextTrajectoryPointY WHERE {
+    ?s resource:resourceId  'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> .
+    ?s resource:hasTrajectory ?trajectory .
+    ?trajectory facility:hasFirstPoint ?firstPoint .
+    ?firstPoint facility:hasNextPoint ?nextPoint .
+    ?firstPoint facility:isLocatedIn ?initialPoint .
+    ?initialPoint facility:hasXCoordinate ?initalPointX .
+    ?initialPoint facility:hasYCoordinate ?initalPointY .
+    ?nextPoint facility:isLocatedIn ?nextTrajectoryPoints .
+    ?nextTrajectoryPoints facility:hasXCoordinate ?nextTrajectoryPointX .
+    ?nextTrajectoryPoints facility:hasYCoordinate ?nextTrajectoryPointY .
+}

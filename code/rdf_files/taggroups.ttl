@@ -1,0 +1,25 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+
+data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976
+    a facility:Project ;
+    facility:hasProjectId '2b547f71-6e1c-4048-a61c-eb59c7e79976'^^<http://www.w3.org/2001/XMLSchema#string> .
+
+data:TagGroup_9d8b5d6e-691a-482a-ab8e-85a7e094dab0
+    a resource:TrackingTagGroup ;
+    a resource:EquipmentTagGroup ;
+    a resource:ResourceType ;
+    resource:name 'Workers'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:resourceTypeId '8'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:belongsToProject data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 .

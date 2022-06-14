@@ -1,0 +1,568 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <https://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783914'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Trajectory ;
+    facility:hasFirstPoint facility:Traject_Point_0.
+
+facility:Traject_Point_0
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_1 ;
+    facility:hasNextPoint facility:Traject_Point_1 ;
+    facility:hasNextPoint facility:Traject_Point_2 ;
+    facility:hasNextPoint facility:Traject_Point_3 ;
+    facility:hasNextPoint facility:Traject_Point_4 ;
+    facility:hasNextPoint facility:Traject_Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_0 .
+
+facility:Point_0
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '23.0'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '21.9'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.017421898147944'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.79657763375992'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783914'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_1
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_2 ;
+    facility:hasNextPoint facility:Traject_Point_2 ;
+    facility:hasNextPoint facility:Traject_Point_3 ;
+    facility:hasNextPoint facility:Traject_Point_4 ;
+    facility:hasNextPoint facility:Traject_Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_1 .
+
+facility:Point_1
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '8.5'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '46.2'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01729164243174'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796854713581688'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783915'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_2
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_3 ;
+    facility:hasNextPoint facility:Traject_Point_3 ;
+    facility:hasNextPoint facility:Traject_Point_4 ;
+    facility:hasNextPoint facility:Traject_Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_2 .
+
+facility:Point_2
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '28.4'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '0.4'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.017470407173285'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796332480831197'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783915'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_3
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_4 ;
+    facility:hasNextPoint facility:Traject_Point_4 ;
+    facility:hasNextPoint facility:Traject_Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_3 .
+
+facility:Point_3
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '24.2'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '44.0'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01743267793135'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796829628165728'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783916'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_4
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_5 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_4 .
+
+facility:Point_4
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '13.7'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '14.6'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01733835482652'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796494395788773'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783916'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_5
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_6 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_5 .
+
+facility:Point_5
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '18.8'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '47.9'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01738416890601'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.79687409776675'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783917'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_6
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_7 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_6 .
+
+facility:Point_6
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '7.6'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '50.5'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01728355759419'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796903744167434'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783917'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_7
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_8 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_7 .
+
+facility:Point_7
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '13.7'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '25.4'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01733835482652'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796617542376225'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783918'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_8
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_9 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_8 .
+
+facility:Point_8
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '53.8'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '4.7'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01769857925545'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796381511416943'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783918'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_9
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_10 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_9 .
+
+facility:Point_9
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '18.5'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '52.9'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01738147396016'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796931110075757'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783919'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_10
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_11 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_10 .
+
+facility:Point_10
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '21.3'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '49.1'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.017406626788116'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796887780720912'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783919'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_11
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_12 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_11 .
+
+facility:Point_11
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '65.0'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '3.0'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.017799190567274'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.79636212723188'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783920'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_12
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_13 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_12 .
+
+facility:Point_12
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '5.7'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '36.3'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01726648960379'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796741829209857'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783920'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_13
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_14 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_13 .
+
+facility:Point_13
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '12.5'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '1.8'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01732757504311'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.79634844427772'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_e9b870d9-5058-4d4a-802b-3457279524e0
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId 'e9b870d9-5058-4d4a-802b-3457279524e0'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783921'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_e9b870d9-5058-4d4a-802b-3457279524e0 .
+
+
+facility:Traject_Point_14
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_15 ;
+    facility:hasNextPoint facility:Traject_Point_15 ;
+    facility:isLocatedIn data:Point_14 .
+
+facility:Point_14
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '10.5'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '4.9'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.01730960873743'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796383791909303'^^<http://www.w3.org/2001/XMLSchema#float> .
+data:TrackingTag_0176711d-00a6-5dab-be9c-a807e6dace25
+    a resource:Resource ;
+    a resource:TrackingTag ;
+    a resource:EquipmentTag ;
+    facility:isUsedIn data:Project_2b547f71-6e1c-4048-a61c-eb59c7e79976 ;
+    resource:resourceId '0176711d-00a6-5dab-be9c-a807e6dace25'^^<http://www.w3.org/2001/XMLSchema#string> ;
+    resource:lastTimePressed '1654783921'^^<http://www.w3.org/2001/XMLSchema#time> ;
+    resource:locationRadius 0.45 ;
+    resource:inferredAccuracy 0.45 ;
+    resource:inferredMovement 0.45 ;
+    resource:inferredSpeed 0.45 ;
+    resource:batteryStatus 0.45 ;
+    resource:hasTrajectory data:Trajectory_0176711d-00a6-5dab-be9c-a807e6dace25 .
+
+
+facility:Traject_Point_15
+    a facility:Trajectory ;
+    facility:hasDirectNextPoint data:Point_0 ;
+    facility:isLocatedIn data:Point_15 .
+
+facility:Point_15
+    a resource:Point ;
+    a geo:Point ;
+    facility:hasXCoordinate '5.0'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    facility:hasYCoordinate '8.9'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lat '38.0172602013968'^^<http://www.w3.org/2001/XMLSchema#float> ;
+    geo:lon '23.796429401756505'^^<http://www.w3.org/2001/XMLSchema#float> .

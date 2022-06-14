@@ -1,0 +1,15 @@
+PREFIX resource: <https://cogito.iot.linkeddata.es/def/resource#>
+PREFIX props: <https://w3id.org/props#>
+PREFIX facility: <https://cogito.iot.linkeddata.es/def/facility#>
+SELECT DISTINCT ?s ?boundary ?firstPointx ?firstPointy ?locationPoint2 ?nextPointsx ?nextPointsy WHERE {
+    ?s props:hasCompressedGuid  "22O7WvOu1F3RpVxpkqDC6M" .
+    ?s facility:hasBoundaries ?boundary .
+    ?boundary facility:hasFirstPoint ?firstPoint .
+    ?firstPoint facility:hasNextPoint ?nextPoint .
+    ?firstPoint facility:isLocatedIn ?locationPoint .
+    ?locationPoint facility:hasXCoordinate ?firstPointx .
+    ?locationPoint facility:hasYCoordinate ?firstPointy .
+    ?nextPoint facility:isLocatedIn ?locationPoint2 .
+    ?locationPoint2 facility:hasXCoordinate ?nextPointsx .
+    ?locationPoint2 facility:hasYCoordinate ?nextPointsy .   
+}
